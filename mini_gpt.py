@@ -12,7 +12,6 @@ from transformers import AutoTokenizer
 from torch.utils.data import DataLoader, Dataset
 import numpy as np
 from tqdm import tqdm
-import wandb
 import argparse
 
 @dataclass
